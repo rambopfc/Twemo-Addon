@@ -54,10 +54,11 @@ local origsettings = {
 	["sliderY"]=0,
 	["MinimapPos"] = 45,
 	["MINIMAPBUTTON"] = true,
+	--if you add a new line to dropdown_options you must add another "true" to the list or it won't show in the menu.
 	["FAVEMOTES"] = {true,true,true,true,true,true,true,true,true,true,
 					true,true,true,true,true,true,true,true,true,true,
 					true,true,true,true,true,true,true,true,true,true,
-					true,true,true,true,true}
+					true,true,true,true,true,true}
 };
 
 local defaultpack={
@@ -1292,6 +1293,7 @@ local dropdown_options={
 [33]= {"xentaria","xentiSabotage","xentiShrimp","xentiRBG","xentiBox"},
 [34]= { "BTTV", "BasedGod","cabbag3","CiGrip","ConcernDoge","CookieThump","FapFapFap","FishMoley","ForeverAlone","FuckYea","HerbPerve", "Hhehehe","KKona","NaM","OhhhKee","Parappappa","PedoBear","PedoNam","PokerFace","RageFace","RebbecaBlack","rStrike","ShoopDaWhoop", "tEh","TrollFace","TwaT","VisLaud","WatChuSay","GabeN","AngelThump","FeelsBadMan","FeelsGoodMan","GoldGasm"},
 [35]= { "Custom","CoolCat","deIlluminati","DOOMGuy","duDudu","hotShield","hotSword","modzHype","modzREKT","OSfrog","trumpGive","VaultBoy","ppdUSA"},
+[36]= { "Test","CoolCat","deIlluminati","DOOMGuy","duDudu","hotShield","hotSword","modzHype","modzREKT","OSfrog","trumpGive","VaultBoy","ppdUSA"},
 }; 
 
 local ItemTextFrameSetText = ItemTextPageText.SetText;
@@ -1337,6 +1339,7 @@ function OpenMailBodyText.SetText(self,msg,...)
 	OpenMailBodyTextSetText(self,msg,...);
 end
 
+-- Should be where dropdown menu gets it's data from, but where does it get the structure from? what is actually calling this function?
 function Emoticons_LoadChatFrameDropdown(self, level, menuList)
 	local info          = Lib_UIDropDownMenu_CreateInfo();
 	if (level or 1) == 1 then
@@ -1347,6 +1350,7 @@ function Emoticons_LoadChatFrameDropdown(self, level, menuList)
 				info.value = false;
 				info.menuList = k;
 				Lib_UIDropDownMenu_AddButton(info);
+				--print(info.text);
 			end
 		end
 	else
