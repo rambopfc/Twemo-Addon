@@ -57,8 +57,7 @@ local origsettings = {
 	--if you add a new line to dropdown_options you must add another "true" to the list or it won't show in the menu.
 	["FAVEMOTES"] = {true,true,true,true,true,true,true,true,true,true,
 					true,true,true,true,true,true,true,true,true,true,
-					true,true,true,true,true,true,true,true,true,true,
-					true,true,true,true,true,true}
+					true,true,true,true,true,true,true,true}
 };
 
 local defaultpack={
@@ -978,7 +977,6 @@ local dropdown_options={
 [26]= {"xentaria","xentiSabotage","xentiShrimp","xentiRBG","xentiBox"},
 [27]= { "BTTV", "BasedGod","cabbag3","CiGrip","ConcernDoge","CookieThump","FapFapFap","FishMoley","ForeverAlone","FuckYea","HerbPerve", "Hhehehe","KKona","NaM","OhhhKee","Parappappa","PedoBear","PedoNam","PokerFace","RageFace","RebbecaBlack","rStrike","ShoopDaWhoop", "tEh","TrollFace","TwaT","VisLaud","WatChuSay","GabeN","AngelThump","FeelsBadMan","FeelsGoodMan","GoldGasm"},
 [28]= { "Custom","CoolCat","deIlluminati","DOOMGuy","duDudu","hotShield","hotSword","modzHype","modzREKT","OSfrog","trumpGive","VaultBoy","ppdUSA"},
-[29]= { "Test","CoolCat","deIlluminati","DOOMGuy","duDudu","hotShield","hotSword","modzHype","modzREKT","OSfrog","trumpGive","VaultBoy","ppdUSA"},
 }; 
 
 local ItemTextFrameSetText = ItemTextPageText.SetText;
