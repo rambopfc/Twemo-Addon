@@ -15,6 +15,8 @@ Emoticons_Settings={
 	["CHAT_MSG_BN_WHISPER"]=true,	--9
 	["CHAT_MSG_BN_WHISPER_INFORM"]=true,--dont count, tie to 9
 	["CHAT_MSG_BN_CONVERSATION"]=true,--10
+    ["CHAT_MSG_INSTANCE_CHAT"]=true,--11
+	["CHAT_MSG_INSTANCE_CHAT_LEADER"]=true,--dont count, tie to 11
 	["MAIL"]=true,					
 	["TWITCHBUTTON"]=true,
 	["sliderX"]=-37,
@@ -23,8 +25,13 @@ Emoticons_Settings={
 	["MINIMAPBUTTON"] = true,
 	["FAVEMOTES"] = {true,true,true,true,true,true,true,true,true,true,
 					true,true,true,true,true,true,true,true,true,true,
+<<<<<<< HEAD
 					true,true,true,true,true,true,true,true,true,true}
 	
+=======
+					true,true,true,true,true,true,true,true,true,true,
+					true,true,true,true,true}
+>>>>>>> origin/Twemo-Custom
 };
 Emoticons_Eyecandy = false;
 
@@ -47,6 +54,7 @@ local origsettings = {
 	["CHAT_MSG_BN_WHISPER_INFORM"]=true,
 	["CHAT_MSG_BN_CONVERSATION"]=true,
 	["CHAT_MSG_CHANNEL"]=true,
+    ["CHAT_MSG_INSTANCE_CHAT"]=true,
 	["MAIL"]=true,
 	["TWITCHBUTTON"]=true,
 	["sliderX"]=-35,
@@ -56,7 +64,12 @@ local origsettings = {
 	--if you add a new line to dropdown_options you must add another "true" to the list or it won't show in the menu.
 	["FAVEMOTES"] = {true,true,true,true,true,true,true,true,true,true,
 					true,true,true,true,true,true,true,true,true,true,
+<<<<<<< HEAD
 					true,true,true,true,true,true,true,true,true,true}
+=======
+					true,true,true,true,true,true,true,true,true,true,
+					true,true,true,true,true,true,true}
+>>>>>>> origin/Twemo-Custom
 };
 
 local defaultpack={
@@ -458,9 +471,10 @@ local defaultpack={
 ["VisLaud"]="Interface\\AddOns\\twemo\\VisLaud.tga:28:28",
 ["RageFace"]="Interface\\AddOns\\twemo\\RageFace.tga:28:28",
 ["Hhehehe"]="Interface\\AddOns\\twemo\\Hhehehe.tga:28:28",
-["KKona"]="Interface\\AddOns\\twemo\\KKona.tga:32:32",
-["CiGrip"]="Interface\\AddOns\\twemo\\CiGrip.tga:32:32",
+["KKona"]="Interface\\AddOns\\twemo\\KKona.tga:28:28",
+["CiGrip"]="Interface\\AddOns\\twemo\\CiGrip.tga:28:28",
 ["TwaT"]="Interface\\AddOns\\twemo\\TwaT.tga:28:28",
+<<<<<<< HEAD
 ["GabeN"]="Interface\\AddOns\\twemo\\GabeN.tga:32:32",
 ["KappaPride"]="Interface\\AddOns\\twemo\\KappaPride.tga:32:32",
 ["AngelThump"]="Interface\\AddOns\\twemo\\AngelThump.tga:32:84",
@@ -529,6 +543,68 @@ local defaultpack={
 ["reynadRight"]="Interface\\AddOns\\twemo\\reynadRight.tga:32.32",
 ["reynadTS"]="Interface\\AddOns\\twemo\\reynadTS.tga:32.32",
 ["reynadW"]="Interface\\AddOns\\twemo\\reynadW.tga:32.32",
+=======
+["GabeN"]="Interface\\AddOns\\twemo\\GabeN.tga:28:28",
+["KappaPride"]="Interface\\AddOns\\twemo\\KappaPride.tga:28:28",
+["AngelThump"]="Interface\\AddOns\\twemo\\AngelThump.tga:28:84",
+["FeelsBadMan"]="Interface\\AddOns\\twemo\\FeelsBadMan.tga:28:28",
+["FeelsGoodMan"]="Interface\\AddOns\\twemo\\FeelsGoodMan.tga:28:28",
+["GoldGasm"]="Interface\\AddOns\\twemo\\GoldGasm.tga:28:28",
+["CoolCat"]="Interface\\AddOns\\twemo\\CoolCat.tga:28:28",
+["deIlluminati"]="Interface\\AddOns\\twemo\\deIlluminati.tga:28:28",
+["DOOMGuy"]="Interface\\AddOns\\twemo\\DOOMGuy.tga:28:28",
+["duDudu"]="Interface\\AddOns\\twemo\\duDudu.tga:28:28",
+["hotShield"]="Interface\\AddOns\\twemo\\hotShield.tga:28:28",
+["hotSword"]="Interface\\AddOns\\twemo\\hotSword.tga:28:28",
+["modzHype"]="Interface\\AddOns\\twemo\\modzHype.tga:28:28",
+["modzREKT"]="Interface\\AddOns\\twemo\\modzREKT.tga:28:28",
+["OSfrog"]="Interface\\AddOns\\twemo\\OSfrog.tga:28:28",
+["trumpGive"]="Interface\\AddOns\\twemo\\trumpGive.tga:28:28",
+["VaultBoy"]="Interface\\AddOns\\twemo\\VaultBoy.tga:28:28",
+["bobrossHappy"]="Interface\\AddOns\\twemo\\bobrossHappy.tga:28:28",
+["bobrossFree"]="Interface\\AddOns\\twemo\\bobrossFree.tga:28:28",
+["bobrossCabin"]="Interface\\AddOns\\twemo\\bobrossCabin.tga:28:28",
+["bobrossCanvas"]="Interface\\AddOns\\twemo\\bobrossCanvas.tga:28:28",
+["ppdUSA"]="Interface\\AddOns\\twemo\\ppdUSA.tga:28:28",
+["KappaRoss"]="Interface\\AddOns\\twemo\\KappaRoss.tga:28:28",
+["bobrossBeli"]="Interface\\AddOns\\twemo\\bobrossBeli.tga:28:28",
+["bobrossVHS"]="Interface\\AddOns\\twemo\\bobrossVHS.tga:28:28",
+["bobrossTree"]="Interface\\AddOns\\twemo\\bobrossTree.tga:28:28",
+["bobrossTap"]="Interface\\AddOns\\twemo\\bobrossTap.tga:28:28",
+["bobrossSq"]="Interface\\AddOns\\twemo\\bobrossSq.tga:28:28",
+["bobrossSaved"]="Interface\\AddOns\\twemo\\bobrossSaved.tga:28:28",
+["bobrossRUI"]="Interface\\AddOns\\twemo\\bobrossRUI.tga:28:28",
+["bobrossNED"]="Interface\\AddOns\\twemo\\bobrossNED.tga:28:28",
+["bobrossMnt"]="Interface\\AddOns\\twemo\\bobrossMnt.tga:28:28",
+["bobrossMeta"]="Interface\\AddOns\\twemo\\bobrossMeta.tga:28:28",
+["bobrossGG"]="Interface\\AddOns\\twemo\\bobrossGG.tga:28:28",
+["bobrossFence"]="Interface\\AddOns\\twemo\\bobrossFence.tga:28:28",
+["bobrossCool"]="Interface\\AddOns\\twemo\\bobrossCool.tga:28:28",
+["bobrossCloud"]="Interface\\AddOns\\twemo\\bobrossCloud.tga:28:28",
+["bobrossChamp"]="Interface\\AddOns\\twemo\\bobrossChamp.tga:28:28",
+["bobrossCanvasP"]="Interface\\AddOns\\twemo\\bobrossCanvasP.tga:28:28",
+["bobrossCanvasB"]="Interface\\AddOns\\twemo\\bobrossCanvasB.tga:28:28",
+["bobrossCanvasA"]="Interface\\AddOns\\twemo\\bobrossCanvasA.tga:28:28",
+["leaRIP"]="Interface\\AddOns\\twemo\\leaRIP.tga:28:28",
+["NotLikeThis"]="Interface\\AddOns\\twemo\\NotLikeThis.tga:28:28",
+["BCouch"]="Interface\\AddOns\\twemo\\BCouch.tga:28:28",
+["forsenX"]="Interface\\AddOns\\twemo\\forsenX.tga:28:28",
+["MingLee"]="Interface\\AddOns\\twemo\\MingLee.tga:28:28",
+["TrumpW"]="Interface\\AddOns\\twemo\\TrumpW.tga:28:28",
+["dyrusDU"]="Interface\\AddOns\\twemo\\dyrusDU.tga:28:28",
+["dyrusDoge"]="Interface\\AddOns\\twemo\\dyrusDoge.tga:28:28",
+["OhMyDog"]="Interface\\AddOns\\twemo\\OhMyDog.tga:28:28",
+["reynadA"]="Interface\\AddOns\\twemo\\reynadA.tga:28:28",
+["reynadB"]="Interface\\AddOns\\twemo\\reynadB.tga:28:28",
+["reynadBeer"]="Interface\\AddOns\\twemo\\reynadBeer.tga:28:28",
+["reynadC"]="Interface\\AddOns\\twemo\\reynadC.tga:28:28",
+["reynadH"]="Interface\\AddOns\\twemo\\reynadH.tga:28:28",
+["reynadLeft"]="Interface\\AddOns\\twemo\\reynadLeft.tga:28:28",
+["reynadRappa"]="Interface\\AddOns\\twemo\\reynadRappa.tga:28:28",
+["reynadRight"]="Interface\\AddOns\\twemo\\reynadRight.tga:28:28",
+["reynadTS"]="Interface\\AddOns\\twemo\\reynadTS.tga:28:28",
+["reynadW"]="Interface\\AddOns\\twemo\\reynadW.tga:28:28",
+>>>>>>> origin/Twemo-Custom
 };
 local emoticons={
 ["leaRIP"]="leaRIP",
@@ -973,6 +1049,7 @@ local emoticons={
 ["bobrossCanvasP"]="bobrossCanvasP",
 ["bobrossCanvasB"]="bobrossCanvasB",
 ["bobrossCanvasA"]="bobrossCanvasA",
+<<<<<<< HEAD
 ["bobrossBeli"]="bobrossBeli",
 ["bobrossBrush"]="bobrossBrush",
 ["bobrossCanvasH"]="bobrossCanvasH",
@@ -982,6 +1059,8 @@ local emoticons={
 ["bobrossMini"]="bobrossMini",
 ["bobrossOPKnife"]="bobrossOPKnife",
 ["bobrossPal"]="bobrossPal",
+=======
+>>>>>>> origin/Twemo-Custom
 ["NotLikeThis"]="NotLikeThis",
 ["BCouch"]="BCouch",
 ["forsenX"]="forsenX",
@@ -1020,6 +1099,7 @@ local dropdown_options={
 [16]= {"Pingwingtv","pingCoon","pingApproves","pingNana","pingOh","pingShiny","pingStar","pingW","pingKappa"},
 [17]= {"Rabbitbong","thatWhiteKnight","thatScumbag","thatBob","thatThirst","thatSwine","thatKawaii","thatDemMelons","thatLOL"},
 [18]= {"Reckful","reckS","reckTime","reckDDOS","reckHello","reckCry","reckSleeper","reckDealer","reckJew","reckJenna","reckFarmer","reckRiot","reckD","reckT","reckSND","reckW"},
+<<<<<<< HEAD
 [19]= {"Reynad", "reynadRappa","reynadBeer","reynadW","reynadA","reynadH","reynadB","reynadC","reynadTS","reynadLeft","reynadRight"},
 [20]= {"Snutzy","snutzTrain","snutzChika","snutzWub","snutzFDB","snutzHype","snutzMoney","snutzLove","snutzBear","snutzTurtle","snutzGasm","snutzAmigo","snutzPaladin","snutzHorse","snutzRamen"},
 [21]= {"Sodapoppin","sodaUpist","sodaPYAH","sodaMicMuted","sodaHYPE","sodaG","sodaDS","sodaRIOT","sodaRB","sodaGS","sodaNOPE","sodaFP","sodaBibleThump","sodaSENPAI","sodaGASM","sodaC","sodaB","sodaGive","sodaDI","sodaMLG","sodaPETA","sodaWH","sodaW","sodaRIP","sodaREKT","sodaWELCOME","sodaDU","sodaAwkward","sodaROGER","sodaHeyGuys","sodaTD","sodaIMAPELICAN","sodaBAM","sodaBD","sodaBJP","sodaBT","sodaCRINGE","sodaDEAL","sodaDOGE","sodaKYLE","sodaKappa","sodaGG"},
@@ -1032,6 +1112,19 @@ local dropdown_options={
 [28]= {"BTTV", "BasedGod","cabbag3","CiGrip","ConcernDoge","CookieThump","FapFapFap","FishMoley","ForeverAlone","FuckYea","HerbPerve", "Hhehehe","KKona","NaM","OhhhKee","Parappappa","PedoBear","PedoNam","PokerFace","RageFace","RebbecaBlack","rStrike","ShoopDaWhoop", "tEh","TrollFace","TwaT","VisLaud","WatChuSay","GabeN","AngelThump","FeelsBadMan","FeelsGoodMan","GoldGasm"},
 [29]= {"Xindra","CoolCat","deIlluminati","DOOMGuy","duDudu","hotShield","hotSword","modzHype","modzREKT","OSfrog","trumpGive","VaultBoy","ppdUSA"},
 [30]= {"Auto","NotLikeThis","BCouch","forsenX","MingLee","OhMyDog"},
+=======
+[19]= {"Snutzy","snutzTrain","snutzChika","snutzWub","snutzFDB","snutzHype","snutzMoney","snutzLove","snutzBear","snutzTurtle","snutzGasm","snutzAmigo","snutzPaladin","snutzHorse","snutzRamen"},
+[20]= {"Sodapoppin","sodaUpist","sodaPYAH","sodaMicMuted","sodaHYPE","sodaG","sodaDS","sodaRIOT","sodaRB","sodaGS","sodaNOPE","sodaFP","sodaBibleThump","sodaSENPAI","sodaGASM","sodaC","sodaB","sodaGive","sodaDI","sodaMLG","sodaPETA","sodaWH","sodaW","sodaRIP","sodaREKT","sodaWELCOME","sodaDU","sodaAwkward","sodaROGER","sodaHeyGuys","sodaTD","sodaIMAPELICAN","sodaBAM","sodaBD","sodaBJP","sodaBT","sodaCRINGE","sodaDEAL","sodaDOGE","sodaKYLE","sodaKappa","sodaGG"},
+[21]= {"Sodez","sdzTmnt","sdzParty","sdzThirsty","sdzTreebeard"},
+[22]= {"Spb_89","heroWAFFLE","heroFACEPALM","heroSMILE","heroDITCH","heroNEXT","heroDEEP"},
+[23]= {"Talbadar","talbWheresbyron","talbSloth","talbSad","talbHappy","talbLewd","talbTroll","talbWheresbyron","talbFace"},
+[24]= {"Vanguardstv","vanGoHAM","vanHOJ","vanKwok","vanWings"},
+[25]= {"Woundman","woundFace","woundGrin","woundGasm","woundJJ","woundBomb","woundOil"},
+[26]= {"xentaria","xentiSabotage","xentiShrimp","xentiRBG","xentiBox"},
+[27]= {"BTTV", "BasedGod","cabbag3","CiGrip","ConcernDoge","CookieThump","FapFapFap","FishMoley","ForeverAlone","FuckYea","HerbPerve","Hhehehe","KKona","NaM","OhhhKee","Parappappa","PedoBear","PedoNam","PokerFace","RageFace","RebbecaBlack","rStrike","ShoopDaWhoop", "tEh","TrollFace","TwaT","VisLaud","WatChuSay","GabeN","AngelThump","FeelsBadMan","FeelsGoodMan","GoldGasm"},
+[28]= {"Xindra","CoolCat","deIlluminati","DOOMGuy","duDudu","hotShield","hotSword","modzHype","modzREKT","OSfrog","trumpGive","VaultBoy","ppdUSA"},
+[29]= {"Auto","NotLikeThis","BCouch","forsenX","MingLee","OhMyDog"},
+>>>>>>> origin/Twemo-Custom
 }; 
 
 local ItemTextFrameSetText = ItemTextPageText.SetText;
