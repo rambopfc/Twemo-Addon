@@ -465,7 +465,6 @@ local defaultpack={
 ["KKona"]="Interface\\AddOns\\twemo\\KKona.tga:28:28",
 ["CiGrip"]="Interface\\AddOns\\twemo\\CiGrip.tga:28:28",
 ["TwaT"]="Interface\\AddOns\\twemo\\TwaT.tga:28:28",
-["AngelThump"]="Interface\\AddOns\\twemo\\AngelThump.tga:32:84",
 ["GabeN"]="Interface\\AddOns\\twemo\\GabeN.tga:28:28",
 ["KappaPride"]="Interface\\AddOns\\twemo\\KappaPride.tga:28:28",
 ["AngelThump"]="Interface\\AddOns\\twemo\\AngelThump.tga:28:84",
@@ -534,6 +533,7 @@ local defaultpack={
 ["reynadRight"]="Interface\\AddOns\\twemo\\reynadRight.tga:28:28",
 ["reynadTS"]="Interface\\AddOns\\twemo\\reynadTS.tga:28:28",
 ["reynadW"]="Interface\\AddOns\\twemo\\reynadW.tga:28:28",
+["cabbag3"]="Interface\\AddOns\\twemo\\cabbag3.tga:28:28",
 };
 local emoticons={
 ["leaRIP"]="leaRIP",
@@ -1034,8 +1034,8 @@ local dropdown_options={
 [25]= {"Vanguardstv","vanGoHAM","vanHOJ","vanKwok","vanWings"},
 [26]= {"Woundman","woundFace","woundGrin","woundGasm","woundJJ","woundBomb","woundOil"},
 [27]= {"xentaria","xentiSabotage","xentiShrimp","xentiRBG","xentiBox"},
-[28]= {"BTTV", "BasedGod","cabbag3","CiGrip","ConcernDoge","CookieThump","FapFapFap","FishMoley","ForeverAlone","FuckYea","HerbPerve", "Hhehehe","KKona","NaM","OhhhKee","Parappappa","PedoBear","PedoNam","PokerFace","RageFace","RebbecaBlack","rStrike","ShoopDaWhoop", "tEh","TrollFace","TwaT","VisLaud","WatChuSay","GabeN","AngelThump","FeelsBadMan","FeelsGoodMan","GoldGasm"},
-[29]= {"Xindra","CoolCat","deIlluminati","DOOMGuy","duDudu","hotShield","hotSword","modzHype","modzREKT","OSfrog","trumpGive","VaultBoy","ppdUSA"},
+[28]= {"BTTV", "BasedGod","cabbag3","CiGrip","ConcernDoge","CookieThump","FapFapFap","FishMoley","ForeverAlone","FuckYea","HerbPerve","Hhehehe","KKona","NaM","OhhhKee","Parappappa","PedoBear","PedoNam","PokerFace","RageFace","RebbecaBlack","rStrike","ShoopDaWhoop","tEh","TrollFace","TwaT","VisLaud","WatChuSay","GabeN","AngelThump","FeelsBadMan","FeelsGoodMan"},
+[29]= {"Xindra","CoolCat","deIlluminati","DOOMGuy","duDudu","hotShield","hotSword","modzHype","modzREKT","OSfrog","trumpGive","VaultBoy","ppdUSA","GoldGasm"},
 [30]= {"Auto","NotLikeThis","BCouch","forsenX","MingLee","OhMyDog"},
 }; 
 
