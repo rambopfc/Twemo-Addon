@@ -533,6 +533,8 @@ local defaultpack={
 ["reynadRight"]="Interface\\AddOns\\twemo\\reynadRight.tga:28:28",
 ["reynadTS"]="Interface\\AddOns\\twemo\\reynadTS.tga:28:28",
 ["reynadW"]="Interface\\AddOns\\twemo\\reynadW.tga:28:28",
+["reynadGF"]="Interface\\AddOns\\twemo\\reynadGF.tga:28:28",
+["reynadSkill"]="Interface\\AddOns\\twemo\\reynadSkill.tga:28:28",
 ["cabbag3"]="Interface\\AddOns\\twemo\\cabbag3.tga:28:28",
 };
 local emoticons={
@@ -1005,6 +1007,8 @@ local emoticons={
 ["reynadRight"]="reynadRight",
 ["reynadTS"]="reynadTS",
 ["reynadW"]="reynadW",
+["reynadGF"]="reynadGF",
+["reynadSkill"]="reynadSkill",
 };
 local dropdown_options={
 [1]= {"battletaure","taureKommerz","taureSchimmel","taureUSB","taureSnipe","taureHartz","taureMic"},
@@ -1025,7 +1029,7 @@ local dropdown_options={
 [16]= {"Pingwingtv","pingCoon","pingApproves","pingNana","pingOh","pingShiny","pingStar","pingW","pingKappa"},
 [17]= {"Rabbitbong","thatWhiteKnight","thatScumbag","thatBob","thatThirst","thatSwine","thatKawaii","thatDemMelons","thatLOL"},
 [18]= {"Reckful","reckS","reckTime","reckDDOS","reckHello","reckCry","reckSleeper","reckDealer","reckJew","reckJenna","reckFarmer","reckRiot","reckD","reckT","reckSND","reckW"},
-[19]= {"Reynad", "reynadRappa","reynadBeer","reynadW","reynadA","reynadH","reynadB","reynadC","reynadTS","reynadLeft","reynadRight"},
+[19]= {"Reynad", "reynadRappa","reynadBeer","reynadW","reynadA","reynadH","reynadB","reynadC","reynadTS","reynadLeft","reynadRight","reynadGF","reynadSkill"},
 [20]= {"Snutzy","snutzTrain","snutzChika","snutzWub","snutzFDB","snutzHype","snutzMoney","snutzLove","snutzBear","snutzTurtle","snutzGasm","snutzAmigo","snutzPaladin","snutzHorse","snutzRamen"},
 [21]= {"Sodapoppin","sodaUpist","sodaPYAH","sodaMicMuted","sodaHYPE","sodaG","sodaDS","sodaRIOT","sodaRB","sodaGS","sodaNOPE","sodaFP","sodaBibleThump","sodaSENPAI","sodaGASM","sodaC","sodaB","sodaGive","sodaDI","sodaMLG","sodaPETA","sodaWH","sodaW","sodaRIP","sodaREKT","sodaWELCOME","sodaDU","sodaAwkward","sodaROGER","sodaHeyGuys","sodaTD","sodaIMAPELICAN","sodaBAM","sodaBD","sodaBJP","sodaBT","sodaCRINGE","sodaDEAL","sodaDOGE","sodaKYLE","sodaKappa","sodaGG"},
 [22]= {"Sodez","sdzTmnt","sdzParty","sdzThirsty","sdzTreebeard"},
