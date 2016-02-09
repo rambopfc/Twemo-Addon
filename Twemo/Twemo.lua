@@ -23,9 +23,10 @@ Emoticons_Settings={
 	["sliderY"]=0,
 	["MinimapPos"] = 45,
 	["MINIMAPBUTTON"] = true,
+	--if you add a new line to dropdown_options you must add another "true" to the list or it won't show in the menu.
 	["FAVEMOTES"] = {true,true,true,true,true,true,true,true,true,true,
 					true,true,true,true,true,true,true,true,true,true,
-					true,true,true,true,true,true,true,true,true,true}
+					true,true,true,true,true,true,true,true,true,true,true}
 	
 
 };
@@ -60,7 +61,7 @@ local origsettings = {
 	--if you add a new line to dropdown_options you must add another "true" to the list or it won't show in the menu.
 	["FAVEMOTES"] = {true,true,true,true,true,true,true,true,true,true,
 					true,true,true,true,true,true,true,true,true,true,
-					true,true,true,true,true,true,true,true,true,true}
+					true,true,true,true,true,true,true,true,true,true,true}
 
 };
 
@@ -536,6 +537,26 @@ local defaultpack={
 ["reynadGF"]="Interface\\AddOns\\twemo\\reynadGF.tga:28:28",
 ["reynadSkill"]="Interface\\AddOns\\twemo\\reynadSkill.tga:28:28",
 ["cabbag3"]="Interface\\AddOns\\twemo\\cabbag3.tga:28:28",
+["tri1"]="Interface\\AddOns\\twemo\\tri1.tga:28:28",
+["tri2"]="Interface\\AddOns\\twemo\\tri2.tga:28:28",
+["tri3"]="Interface\\AddOns\\twemo\\tri3.tga:28:28",
+["tri4"]="Interface\\AddOns\\twemo\\tri4.tga:28:28",
+["triCheese"]="Interface\\AddOns\\twemo\\triCheese.tga:28:28",
+["triDANK"]="Interface\\AddOns\\twemo\\triDANK.tga:28:28",
+["triDookie"]="Interface\\AddOns\\twemo\\triDookie.tga:28:28",
+["triGasm"]="Interface\\AddOns\\twemo\\triGasm.tga:28:28",
+["triGiggle"]="Interface\\AddOns\\twemo\\triGiggle.tga:28:28",
+["triGropeL"]="Interface\\AddOns\\twemo\\triGropeL.tga:28:28",
+["triGropeR"]="Interface\\AddOns\\twemo\\triGropeR.tga:28:28",
+["triLewd"]="Interface\\AddOns\\twemo\\triLewd.tga:28:28",
+["triPantsu"]="Interface\\AddOns\\twemo\\triPantsu.tga:28:28",
+["triSpaghetti"]="Interface\\AddOns\\twemo\\triSpaghetti.tga:28:28",
+["triSugoi"]="Interface\\AddOns\\twemo\\triSugoi.tga:28:28",
+["triTHIRST"]="Interface\\AddOns\\twemo\\triTHIRST.tga:28:28",
+["triUGH"]="Interface\\AddOns\\twemo\\triUGH.tga:28:28",
+["triURRP"]="Interface\\AddOns\\twemo\\triURRP.tga:28:28",
+["triWaifu"]="Interface\\AddOns\\twemo\\triWaifu.tga:28:28",
+["triWAT"]="Interface\\AddOns\\twemo\\triWAT.tga:28:28",
 };
 local emoticons={
 ["leaRIP"]="leaRIP",
@@ -1009,6 +1030,26 @@ local emoticons={
 ["reynadW"]="reynadW",
 ["reynadGF"]="reynadGF",
 ["reynadSkill"]="reynadSkill",
+["tri1"]="tri1",
+["tri2"]="tri2",
+["tri3"]="tri3",
+["tri4"]="tri4",
+["triCheese"]="triCheese",
+["triDANK"]="triDANK",
+["triDookie"]="triDookie",
+["triGasm"]="triGasm",
+["triGiggle"]="triGiggle",
+["triGropeL"]="triGropeL",
+["triGropeR"]="triGropeR",
+["triLewd"]="triLewd",
+["triPantsu"]="triPantsu",
+["triSpaghetti"]="triSpaghetti",
+["triSugoi"]="triSugoi",
+["triTHIRST"]="triTHIRST",
+["triUGH"]="triUGH",
+["triURRP"]="triURRP",
+["triWaifu"]="triWaifu",
+["triWAT"]="triWAT",
 };
 local dropdown_options={
 [1]= {"battletaure","taureKommerz","taureSchimmel","taureUSB","taureSnipe","taureHartz","taureMic"},
@@ -1038,9 +1079,10 @@ local dropdown_options={
 [25]= {"Vanguardstv","vanGoHAM","vanHOJ","vanKwok","vanWings"},
 [26]= {"Woundman","woundFace","woundGrin","woundGasm","woundJJ","woundBomb","woundOil"},
 [27]= {"xentaria","xentiSabotage","xentiShrimp","xentiRBG","xentiBox"},
-[28]= {"BTTV", "BasedGod","cabbag3","CiGrip","ConcernDoge","CookieThump","FapFapFap","FishMoley","ForeverAlone","FuckYea","HerbPerve","Hhehehe","KKona","NaM","OhhhKee","Parappappa","PedoBear","PedoNam","PokerFace","RageFace","RebbecaBlack","rStrike","ShoopDaWhoop","tEh","TrollFace","TwaT","VisLaud","WatChuSay","GabeN","AngelThump","FeelsBadMan","FeelsGoodMan"},
-[29]= {"Xindra","CoolCat","deIlluminati","DOOMGuy","duDudu","hotShield","hotSword","modzHype","modzREKT","OSfrog","trumpGive","VaultBoy","ppdUSA","GoldGasm"},
-[30]= {"Auto","NotLikeThis","BCouch","forsenX","MingLee","OhMyDog"},
+[28]= {"BTTV","BasedGod","cabbag3","CiGrip","ConcernDoge","CookieThump","FapFapFap","FishMoley","ForeverAlone","FuckYea","HerbPerve","Hhehehe","KKona","NaM","OhhhKee","Parappappa","PedoBear","PedoNam","PokerFace","RageFace","RebbecaBlack","rStrike","ShoopDaWhoop","tEh","TrollFace","TwaT","VisLaud","WatChuSay","GabeN","AngelThump","FeelsBadMan","FeelsGoodMan"},
+[29]= {"Trihex","tri1","tri2","tri3","tri4","triCheese","triDANK","triDookie","triGasm","triGiggle","triGropeL","triGropeR","triLewd","triPantsu","triSpaghetti","triSugoi","triTHIRST","triUGH","triURRP","triWaifu","triWAT"},
+[30]= {"Xindra","CoolCat","deIlluminati","DOOMGuy","duDudu","hotShield","hotSword","modzHype","modzREKT","OSfrog","trumpGive","VaultBoy","ppdUSA","GoldGasm"},
+[31]= {"Auto","NotLikeThis","BCouch","forsenX","MingLee","OhMyDog"},
 }; 
 
 local ItemTextFrameSetText = ItemTextPageText.SetText;
