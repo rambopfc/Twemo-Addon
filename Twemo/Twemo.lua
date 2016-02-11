@@ -557,6 +557,7 @@ local defaultpack={
 ["triURRP"]="Interface\\AddOns\\twemo\\triURRP.tga:28:28",
 ["triWaifu"]="Interface\\AddOns\\twemo\\triWaifu.tga:28:28",
 ["triWAT"]="Interface\\AddOns\\twemo\\triWAT.tga:28:28",
+["demAsap"]="Interface\\AddOns\\twemo\\demAsap.tga:28:84",
 };
 local emoticons={
 ["leaRIP"]="leaRIP",
@@ -1050,6 +1051,7 @@ local emoticons={
 ["triURRP"]="triURRP",
 ["triWaifu"]="triWaifu",
 ["triWAT"]="triWAT",
+["demAsap"]="demAsap",
 };
 local dropdown_options={
 [1]= {"battletaure","taureKommerz","taureSchimmel","taureUSB","taureSnipe","taureHartz","taureMic"},
@@ -1081,7 +1083,7 @@ local dropdown_options={
 [27]= {"xentaria","xentiSabotage","xentiShrimp","xentiRBG","xentiBox"},
 [28]= {"BTTV","BasedGod","cabbag3","CiGrip","ConcernDoge","CookieThump","FapFapFap","FishMoley","ForeverAlone","FuckYea","HerbPerve","Hhehehe","KKona","NaM","OhhhKee","Parappappa","PedoBear","PedoNam","PokerFace","RageFace","RebbecaBlack","rStrike","ShoopDaWhoop","tEh","TrollFace","TwaT","VisLaud","WatChuSay","GabeN","AngelThump","FeelsBadMan","FeelsGoodMan"},
 [29]= {"Trihex","tri1","tri2","tri3","tri4","triCheese","triDANK","triDookie","triGasm","triGiggle","triGropeL","triGropeR","triLewd","triPantsu","triSpaghetti","triSugoi","triTHIRST","triUGH","triURRP","triWaifu","triWAT"},
-[30]= {"Xindra","CoolCat","deIlluminati","DOOMGuy","duDudu","hotShield","hotSword","modzHype","modzREKT","OSfrog","trumpGive","VaultBoy","ppdUSA","GoldGasm"},
+[30]= {"Xindra","CoolCat","deIlluminati","DOOMGuy","duDudu","hotShield","hotSword","modzHype","modzREKT","OSfrog","trumpGive","VaultBoy","ppdUSA","GoldGasm","demAsap",},
 [31]= {"Auto","NotLikeThis","BCouch","forsenX","MingLee","OhMyDog"},
 }; 
 
