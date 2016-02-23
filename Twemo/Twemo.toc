@@ -1,9 +1,8 @@
 ## Interface: 60200
 ## Title: Twitch Chat Emoticons
 ## Notes: Displays Twitch.tv Emoticons in chat and mail
-## Notes-deDE: Zeigt Twitch.tv Emoticons im Chat und Post
-## Author: Autø @ Area 52, Xindra @ Area 52,Papp @ Azshara, Ladeon @ Argent Dawn
-## Version: v1
+## Author: Autø @ Area52, Xindra @ Area52 ,Papp @ Azshara, Ladeon @ Argent Dawn
+## Version: 2.0
 ## SavedVariablesPerCharacter: Emoticons_Settings Emoticons_Eyecandy
 UIDropDownMenuTemplates.xml
 UIDropDownMenu.lua

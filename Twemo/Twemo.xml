@@ -645,4 +645,5 @@ Revert PowaBarSliderTemplate to inherit from OptionsSliderTemplate if it's fixed
 			</OnClick>
 		</Scripts>
 	</Button>
+	<Script file="CheckVersion.lua"/>
 </Ui>

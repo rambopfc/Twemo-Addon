@@ -31,6 +31,8 @@ Emoticons_Settings={
 
 };
 Emoticons_Eyecandy = false;
+-- ** Update this when the addon version is updated in toc! **
+CurrentVer = 2.0
 
 
 
