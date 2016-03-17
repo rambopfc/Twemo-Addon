@@ -32,7 +32,7 @@ Emoticons_Settings={
 };
 Emoticons_Eyecandy = false;
 -- ** Update this when the addon version is updated in .toc!  Update new items in CheckVersion.lua!!**
-CurrentVer = 2.0
+CurrentVer = 2.01
 
 
 
@@ -1158,10 +1158,10 @@ local dropdown_options={
 [12]= {"Mufasaprime","primeBeard","primeKappa","primeLaugh","primeLoot","primeScum","primeCoin","primeSquid","primeFeel"},
 [13]= {"Nl_kripp","krippRage","krippDonger","krippRiot","krippDonger2","krippDoge","krippOJ","krippChamp","krippSheffy","krippGive","krippThump","krippSleeper","krippWTF","krippWall","krippSuccy","krippCat","krippBird","krippFist","krippW","krippToon","krippLucky","krippEye","krippO"},
 [14]= {"Nmplol","nmpNMPbomb","nmpSweg","nmpTHELORD","nmpTUDI","nmpSAD","nmpThump","nmpKerpa","nmpW"},
-[15]= {"other1","4Head","ANELE","leaRIP","KappaPride","ArsonNoSexy","AsianGlow","AtGL","AthenaPMS","AtIvy","AtWW","BabyRage","BatChest","BCWarrior","BibleThump","BigBrother","BionicBunion","BlargNaut","BloodTrail","BORT","BrainSlug","BrokeBack","BuddhaBar","CougarHunt","DAESuppy","DansGame","DatSheffy","DBstyle","DendiFace","DogFace","EagleEye","EleGiggle","EvilFetus"},
+[15]= {"other1","4Head","ANELE","leaRIP","KappaPride","ArsonNoSexy","AsianGlow","AtGL","AthenaPMS","AtIvy","AtWW","BabyRage","BatChest","BCWarrior","BibleThump","BigBrother","BionicBunion","BlargNaut","BloodTrail","BORT","BrainSlug","BrokeBack","BuddhaBar","CougarHunt","DAESuppy","DansGame","DatSheffy","DBstyle","DendiFace","DogFace","EagleEye","EleGiggle","EvilFetus","VoHiYo"},
 [16]= {"other2","FailFish","FPSMarksman","FrankerZ","FreakinStinkin","FUNgineer","FunRun","FuzzyOtterOO","GasJoker","GingerPower","GrammarKing","HassaanChop","HassanChop","HeyGuys","HotPokket","HumbleLife","ItsBoshyTime","Jebaited","JKanStyle","JonCarnage","KAPOW","Kappa","Keepo","KevinTurtle","Kippa","Kreygasm","KZassault","KZcover","KZguerilla","KZhelghast","KZowl","TrumpW","dyrusDoge","dyrusDU"},
 [17]= {"other3","KZskull","Mau5","mcaT","MechaSupes","MrDestructoid","MVGame","NightBat","NinjaTroll","NoNoSpot","noScope","NotAtk","OMGScoots","OneHand","OpieOP","OptimizePrime","panicBasket","PanicVis","PazPazowitz","PeoplesChamp","PermaSmug","PicoMause","PipeHype","PJHarley","PJSalt","PMSTwin","PogChamp","Poooound","PraiseIt","PRChase","PunchTrees","PuppeyFace","RaccAttack","RalpherZ","RedCoat","ResidentSleeper","RitzMitz","RuleFive","Shazam","shazamicon","ShazBotstix","ShibeZ","SMOrc","SMSkull","SoBayed","SoonerLater","SriHead","SSSsss","StoneLightning","StrawBeary","SuperVinlin","SwiftRage","TF2John","TheRinger","TheTarFu","TheThing","ThunBeast","TinyFace","TooSpicy","TriHard","TTours","UleetBackup","UncleNox","UnSane","Volcania","WholeWheat","WinWaker","WTRuck","WutFace","YouWHY"},
-[18]= {"Pingwingtv","pingCoon","pingApproves","pingNana","pingOh","pingShiny","pingStar","pingW","pingKappa","VoHiYo"},
+[18]= {"Pingwingtv","pingCoon","pingApproves","pingNana","pingOh","pingShiny","pingStar","pingW","pingKappa",},
 [19]= {"Rabbitbong","thatWhiteKnight","thatScumbag","thatBob","thatThirst","thatSwine","thatKawaii","thatDemMelons","thatLOL"},
 [20]= {"Reckful","reckS","reckTime","reckDDOS","reckHello","reckCry","reckSleeper","reckDealer","reckJew","reckJenna","reckFarmer","reckRiot","reckD","reckT","reckSND","reckW"},
 [21]= {"Reynad", "reynadRappa","reynadBeer","reynadW","reynadA","reynadH","reynadB","reynadC","reynadTS","reynadLeft","reynadRight","reynadGF","reynadSkill"},
