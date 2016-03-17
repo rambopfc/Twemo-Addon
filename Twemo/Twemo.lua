@@ -1266,7 +1266,7 @@ end
 
 function Emoticons_Dropdown_OnClick(self,arg1,arg2,arg3)
 	if(ACTIVE_CHAT_EDIT_BOX ~= nil) then
-		ACTIVE_CHAT_EDIT_BOX:Insert(self.value);
+		ACTIVE_CHAT_EDIT_BOX:Insert(self.value .. " ");
 	end
 end
 

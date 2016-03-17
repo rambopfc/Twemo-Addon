@@ -317,6 +317,7 @@ Revert PowaBarSliderTemplate to inherit from OptionsSliderTemplate if it's fixed
 					</OnClick>
 				</Scripts>
 			</CheckButton>
+			
 			<Frame name="$parentTrenner">
 				<Anchors>
 					<Anchor point="TOPLEFT" relativeTo="$parentCHAT_MSG_OFFICER" relativePoint="BOTTOMLEFT">
