@@ -7,6 +7,7 @@ local check = function(self, event, prefix, message, channel, sender)
 		if prefix ~= "TweemoUIVersion" or sender == UnitName("player") then return end
 		if tonumber(message) ~= nil and tonumber(message) > tonumber(CurrentVer) then
 			print("Your version of Tweemo is out of date")
+			print("Emotes Added: forsenlol, bUrself, LUL, VoHiYo")
 			self:UnregisterEvent("CHAT_MSG_ADDON")
 		end
 	else

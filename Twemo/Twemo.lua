@@ -31,7 +31,7 @@ Emoticons_Settings={
 
 };
 Emoticons_Eyecandy = false;
--- ** Update this when the addon version is updated in toc! **
+-- ** Update this when the addon version is updated in .toc!  Update new items in CheckVersion.lua!!**
 CurrentVer = 2.0
 
 
