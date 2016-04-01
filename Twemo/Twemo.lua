@@ -26,7 +26,7 @@ Emoticons_Settings={
 	--if you add a new line to dropdown_options you must add another "true" to the list or it won't show in the menu.
 	["FAVEMOTES"] = {true,true,true,true,true,true,true,true,true,true,
 					true,true,true,true,true,true,true,true,true,true,
-					true,true,true,true,true,true,true,true,true,true,true,true,true}
+					true,true,true,true,true,true,true,true,true,true,true,true}
 	
 
 };
@@ -63,7 +63,7 @@ local origsettings = {
 	--if you add a new line to dropdown_options you must add another "true" to the list or it won't show in the menu.
 	["FAVEMOTES"] = {true,true,true,true,true,true,true,true,true,true,
 					true,true,true,true,true,true,true,true,true,true,
-					true,true,true,true,true,true,true,true,true,true,true,true,true}
+					true,true,true,true,true,true,true,true,true,true,true,true}
 
 };
 
@@ -604,10 +604,6 @@ local defaultpack={
 ["bUrself"]="Interface\\AddOns\\twemo\\bUrself.tga:28:28",
 ["LUL"]="Interface\\AddOns\\twemo\\LUL.tga:28:28",
 ["VoHiYo"]="Interface\\AddOns\\twemo\\VoHiYo.tga:28:28",
-["mitchPleb"]="Interface\\AddOns\\twemo\\mitchPleb.tga:28:28",
-["SeemsGood"]="Interface\\AddOns\\twemo\\SeemsGood.tga:28:28",
-["twitchRaid"]="Interface\\AddOns\\twemo\\twitchRaid.tga:28:28",
-["VapeNation"]="Interface\\AddOns\\twemo\\VapeNation.tga:28:28",
 };
 local emoticons={
 ["leaRIP"]="leaRIP",
@@ -1146,10 +1142,6 @@ local emoticons={
 ["bUrself"]="bUrself",
 ["LUL"]="LUL",
 ["VoHiYo"]="VoHiYo",
-["mitchPleb"]="mitchPleb",
-["SeemsGood"]="SeemsGood",
-["twitchRaid"]="twitchRaid",
-["VapeNation"]="VapeNation",
 };
 local dropdown_options={
 [1]= {"battletaure","taureKommerz","taureSchimmel","taureUSB","taureSnipe","taureHartz","taureMic"},
@@ -1169,23 +1161,22 @@ local dropdown_options={
 [15]= {"other1","4Head","ANELE","leaRIP","KappaPride","ArsonNoSexy","AsianGlow","AtGL","AthenaPMS","AtIvy","AtWW","BabyRage","BatChest","BCWarrior","BibleThump","BigBrother","BionicBunion","BlargNaut","BloodTrail","BORT","BrainSlug","BrokeBack","BuddhaBar","CougarHunt","DAESuppy","DansGame","DatSheffy","DBstyle","DendiFace","DogFace","EagleEye","EleGiggle","EvilFetus","VoHiYo"},
 [16]= {"other2","FailFish","FPSMarksman","FrankerZ","FreakinStinkin","FUNgineer","FunRun","FuzzyOtterOO","GasJoker","GingerPower","GrammarKing","HassaanChop","HassanChop","HeyGuys","HotPokket","HumbleLife","ItsBoshyTime","Jebaited","JKanStyle","JonCarnage","KAPOW","Kappa","Keepo","KevinTurtle","Kippa","Kreygasm","KZassault","KZcover","KZguerilla","KZhelghast","KZowl","TrumpW","dyrusDoge","dyrusDU"},
 [17]= {"other3","KZskull","Mau5","mcaT","MechaSupes","MrDestructoid","MVGame","NightBat","NinjaTroll","NoNoSpot","noScope","NotAtk","OMGScoots","OneHand","OpieOP","OptimizePrime","panicBasket","PanicVis","PazPazowitz","PeoplesChamp","PermaSmug","PicoMause","PipeHype","PJHarley","PJSalt","PMSTwin","PogChamp","Poooound","PraiseIt","PRChase","PunchTrees","PuppeyFace","RaccAttack","RalpherZ","RedCoat","ResidentSleeper","RitzMitz","RuleFive","Shazam","shazamicon","ShazBotstix","ShibeZ","SMOrc","SMSkull","SoBayed","SoonerLater","SriHead","SSSsss","StoneLightning","StrawBeary","SuperVinlin","SwiftRage","TF2John","TheRinger","TheTarFu","TheThing","ThunBeast","TinyFace","TooSpicy","TriHard","TTours","UleetBackup","UncleNox","UnSane","Volcania","WholeWheat","WinWaker","WTRuck","WutFace","YouWHY"},
-[18]= {"other4","mitchPleb","SeemsGood","twitchRaid","VapeNation",},
-[19]= {"Pingwingtv","pingCoon","pingApproves","pingNana","pingOh","pingShiny","pingStar","pingW","pingKappa",},
-[20]= {"Rabbitbong","thatWhiteKnight","thatScumbag","thatBob","thatThirst","thatSwine","thatKawaii","thatDemMelons","thatLOL"},
-[21]= {"Reckful","reckS","reckTime","reckDDOS","reckHello","reckCry","reckSleeper","reckDealer","reckJew","reckJenna","reckFarmer","reckRiot","reckD","reckT","reckSND","reckW"},
-[22]= {"Reynad", "reynadRappa","reynadBeer","reynadW","reynadA","reynadH","reynadB","reynadC","reynadTS","reynadLeft","reynadRight","reynadGF","reynadSkill"},
-[23]= {"Snutzy","snutzTrain","snutzChika","snutzWub","snutzFDB","snutzHype","snutzMoney","snutzLove","snutzBear","snutzTurtle","snutzGasm","snutzAmigo","snutzPaladin","snutzHorse","snutzRamen"},
-[24]= {"Sodapoppin","sodaUpist","sodaPYAH","sodaMicMuted","sodaHYPE","sodaG","sodaDS","sodaRIOT","sodaRB","sodaGS","sodaNOPE","sodaFP","sodaBibleThump","sodaSENPAI","sodaGASM","sodaC","sodaB","sodaGive","sodaDI","sodaMLG","sodaPETA","sodaWH","sodaW","sodaRIP","sodaREKT","sodaWELCOME","sodaDU","sodaAwkward","sodaROGER","sodaHeyGuys","sodaTD","sodaIMAPELICAN","sodaBAM","sodaBD","sodaBJP","sodaBT","sodaCRINGE","sodaDEAL","sodaDOGE","sodaKYLE","sodaKappa","sodaGG"},
-[25]= {"Sodez","sdzTmnt","sdzParty","sdzThirsty","sdzTreebeard"},
-[26]= {"Spb_89","heroWAFFLE","heroFACEPALM","heroSMILE","heroDITCH","heroNEXT","heroDEEP"},
-[27]= {"Talbadar","talbWheresbyron","talbSloth","talbSad","talbHappy","talbLewd","talbTroll","talbWheresbyron","talbFace"},
-[28]= {"Vanguardstv","vanGoHAM","vanHOJ","vanKwok","vanWings"},
-[29]= {"Woundman","woundFace","woundGrin","woundGasm","woundJJ","woundBomb","woundOil"},
-[30]= {"xentaria","xentiSabotage","xentiShrimp","xentiRBG","xentiBox"},
-[31]= {"BTTV","BasedGod","cabbag3","CiGrip","ConcernDoge","CookieThump","FapFapFap","FishMoley","ForeverAlone","FuckYea","HerbPerve","Hhehehe","KKona","NaM","OhhhKee","Parappappa","PedoBear","PedoNam","PokerFace","RageFace","RebbecaBlack","rStrike","ShoopDaWhoop","tEh","TrollFace","TwaT","VisLaud","WatChuSay","GabeN","AngelThump","FeelsBadMan","FeelsGoodMan","bUrself","LUL",},
-[32]= {"Trihex","tri1","tri2","tri3","tri4","triCheese","triDANK","triDookie","triGasm","triGiggle","triGropeL","triGropeR","triLewd","triPantsu","triSpaghetti","triSugoi","triTHIRST","triUGH","triURRP","triWaifu","triWAT"},
-[33]= {"Xindra","CoolCat","deIlluminati","DOOMGuy","duDudu","hotShield","hotSword","modzHype","modzREKT","OSfrog","trumpGive","VaultBoy","ppdUSA","GoldGasm","cmonBruh","CorgiDerp",},
-[34]= {"Auto","NotLikeThis","BCouch","MingLee","OhMyDog","demAsap"},
+[18]= {"Pingwingtv","pingCoon","pingApproves","pingNana","pingOh","pingShiny","pingStar","pingW","pingKappa",},
+[19]= {"Rabbitbong","thatWhiteKnight","thatScumbag","thatBob","thatThirst","thatSwine","thatKawaii","thatDemMelons","thatLOL"},
+[20]= {"Reckful","reckS","reckTime","reckDDOS","reckHello","reckCry","reckSleeper","reckDealer","reckJew","reckJenna","reckFarmer","reckRiot","reckD","reckT","reckSND","reckW"},
+[21]= {"Reynad", "reynadRappa","reynadBeer","reynadW","reynadA","reynadH","reynadB","reynadC","reynadTS","reynadLeft","reynadRight","reynadGF","reynadSkill"},
+[22]= {"Snutzy","snutzTrain","snutzChika","snutzWub","snutzFDB","snutzHype","snutzMoney","snutzLove","snutzBear","snutzTurtle","snutzGasm","snutzAmigo","snutzPaladin","snutzHorse","snutzRamen"},
+[23]= {"Sodapoppin","sodaUpist","sodaPYAH","sodaMicMuted","sodaHYPE","sodaG","sodaDS","sodaRIOT","sodaRB","sodaGS","sodaNOPE","sodaFP","sodaBibleThump","sodaSENPAI","sodaGASM","sodaC","sodaB","sodaGive","sodaDI","sodaMLG","sodaPETA","sodaWH","sodaW","sodaRIP","sodaREKT","sodaWELCOME","sodaDU","sodaAwkward","sodaROGER","sodaHeyGuys","sodaTD","sodaIMAPELICAN","sodaBAM","sodaBD","sodaBJP","sodaBT","sodaCRINGE","sodaDEAL","sodaDOGE","sodaKYLE","sodaKappa","sodaGG"},
+[24]= {"Sodez","sdzTmnt","sdzParty","sdzThirsty","sdzTreebeard"},
+[25]= {"Spb_89","heroWAFFLE","heroFACEPALM","heroSMILE","heroDITCH","heroNEXT","heroDEEP"},
+[26]= {"Talbadar","talbWheresbyron","talbSloth","talbSad","talbHappy","talbLewd","talbTroll","talbWheresbyron","talbFace"},
+[27]= {"Vanguardstv","vanGoHAM","vanHOJ","vanKwok","vanWings"},
+[28]= {"Woundman","woundFace","woundGrin","woundGasm","woundJJ","woundBomb","woundOil"},
+[29]= {"xentaria","xentiSabotage","xentiShrimp","xentiRBG","xentiBox"},
+[30]= {"BTTV","BasedGod","cabbag3","CiGrip","ConcernDoge","CookieThump","FapFapFap","FishMoley","ForeverAlone","FuckYea","HerbPerve","Hhehehe","KKona","NaM","OhhhKee","Parappappa","PedoBear","PedoNam","PokerFace","RageFace","RebbecaBlack","rStrike","ShoopDaWhoop","tEh","TrollFace","TwaT","VisLaud","WatChuSay","GabeN","AngelThump","FeelsBadMan","FeelsGoodMan","bUrself","LUL",},
+[31]= {"Trihex","tri1","tri2","tri3","tri4","triCheese","triDANK","triDookie","triGasm","triGiggle","triGropeL","triGropeR","triLewd","triPantsu","triSpaghetti","triSugoi","triTHIRST","triUGH","triURRP","triWaifu","triWAT"},
+[32]= {"Xindra","CoolCat","deIlluminati","DOOMGuy","duDudu","hotShield","hotSword","modzHype","modzREKT","OSfrog","trumpGive","VaultBoy","ppdUSA","GoldGasm","cmonBruh","CorgiDerp",},
+[33]= {"Auto","NotLikeThis","BCouch","MingLee","OhMyDog","demAsap"},
 }; 
 
 local ItemTextFrameSetText = ItemTextPageText.SetText;
