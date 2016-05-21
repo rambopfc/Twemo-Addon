@@ -2,7 +2,7 @@
 ## Title: Twitch Chat Emoticons
 ## Notes: Displays Twitch.tv Emoticons in chat and mail
 ## Author: Autø @ Area52, Xindra @ Area52 ,Papp @ Azshara, Ladeon @ Argent Dawn
-## Version: 2.03
+## Version: 2.04
 ## SavedVariablesPerCharacter: Emoticons_Settings Emoticons_Eyecandy
 UIDropDownMenuTemplates.xml
 UIDropDownMenu.lua

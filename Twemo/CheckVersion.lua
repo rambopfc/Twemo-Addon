@@ -2,7 +2,7 @@
 --	Check outdated UI version
 --  Ripped from ShestakUI http://shestak.org
 ----------------------------------------------------------------------------------------
-local updates = "added forsenE haHAA krippFat mito100 mitoOK"
+local updates = "added BudBlast BudStar danDerp danFat danLewd danRekt danW itmejpHAPPY KKomrade krippBaby krippPopo StinkyCheese"
 local check = function(self, event, prefix, message, channel, sender)
 	if event == "CHAT_MSG_ADDON" then
 		if prefix ~= "TweemoUIVersion" or sender == UnitName("player") then return end

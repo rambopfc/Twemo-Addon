@@ -26,13 +26,13 @@ Emoticons_Settings={
 	--if you add a new line to dropdown_options you must add another "true" to the list or it won't show in the menu.
 	["FAVEMOTES"] = {true,true,true,true,true,true,true,true,true,true,
 					true,true,true,true,true,true,true,true,true,true,
-					true,true,true,true,true,true,true,true,true,true,true,true,true}
+					true,true,true,true,true,true,true,true,true,true,true,true,true,true}
 	
 
 };
 Emoticons_Eyecandy = false;
 -- ** Update this when the addon version is updated in .toc!  Update new items in CheckVersion.lua!!**
-CurrentVer = 2.03
+CurrentVer = 2.04
 
 
 
@@ -63,7 +63,7 @@ local origsettings = {
 	--if you add a new line to dropdown_options you must add another "true" to the list or it won't show in the menu.
 	["FAVEMOTES"] = {true,true,true,true,true,true,true,true,true,true,
 					true,true,true,true,true,true,true,true,true,true,
-					true,true,true,true,true,true,true,true,true,true,true,true,true}
+					true,true,true,true,true,true,true,true,true,true,true,true,true,true}
 
 };
 
